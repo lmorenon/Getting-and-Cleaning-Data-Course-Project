@@ -125,3 +125,6 @@ View(DB_s)
 
 write.csv(DB_Final,"DB_UCI_HAR_Tidy.csv",row.names=FALSE)
 write.csv(DB_s,"Summary_UCI_HAR_Tidy.csv",row.names=FALSE)
+
+write.table(DB_Final,"DB_UCI_HAR_Tidy.txt",row.names=FALSE)
+write.table(DB_s,"Summary_UCI_HAR_Tidy.txt",row.names=FALSE)
