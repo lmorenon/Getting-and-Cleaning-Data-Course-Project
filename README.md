@@ -12,6 +12,11 @@ This repo contains:
 * Summary_UCI_HAR_Tidy.csv (Tidy Summary with means grouped by subjects, experimental groups and activities)
 * Codebook_UCI-HAR_Tidy-DB.pdf
 
+Please: run the files in working directory (setwd())
+
+
 For full documentation read the Codebook, also the original source of data: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
+
 
 Thanks for review me!
