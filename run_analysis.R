@@ -79,7 +79,7 @@ View(DB_Final2)
 
 ## I use the full name of each abbreviation (see the codebook for reference) 
 ##include "_" as separator
-## replace the x,y and z index for (x),(y) and (z) inside the function label (e.g. mean(), sd())
+## replace the x,y and z index for (x),(y) and (z) inside the function label (e.g. mean(), std())
 
 ### Replace abbreviations and include separators (Note: Run just one time!)
 
@@ -109,6 +109,7 @@ View(DB_Final)
 DB_summary<-aggregate(.~ID+Group+activity,DB_Final,mean)
 DB_summary<-DB_summary[order(DB_summary$ID,DB_summary$Group,DB_summary$activity),]
 
+str(DB_summary)
 View(DB_summary)
 
 ## Second option
@@ -116,6 +117,7 @@ View(DB_summary)
 DB_s<-DB_Final %>% group_by(ID,Group,activity) %>% summarise_all(list(mean))
 DB_s<-DB_s[order(DB_s$ID,DB_s$Group,DB_s$activity),]
 
+str(DB_s)
 View(DB_s)
 
 ## The end, Thanks for Review Me!
