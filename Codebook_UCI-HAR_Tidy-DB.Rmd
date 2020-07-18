@@ -74,8 +74,16 @@ The set of variables that were estimated from these signals are:
 mean(): Mean value  
 std(): Standard deviation  
 
+>*NOTE:* THE PREFIX AND ABBREVIATIONS WERE CHANGED COMPARED TO ORIGINAL DATA SOURCE,  
+  THE NEW SYSTEM FOLLOW THE NEXT CODENAME:  
+* prefix t is replaced by time  
+* Acc is replaced by Accelerometer  
+* Mag is replaced by Magnitude  
+* BodyBody is replaced by Body  
+* Gyro is replaced by Gyroscope  
+* prefix f is replaced by frequency  
 
-     
+
  [4] "time_Body_Accelerometer-mean(X)":              
  [5] "time_Body_Accelerometer-mean(Y)"                 
  [6] "time_Body_Accelerometer-mean(Z)"                 
